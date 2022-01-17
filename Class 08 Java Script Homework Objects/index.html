@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class 08 Objects Homework</title>
+    <style>
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #myForm {
+            border: 2px solid rgb(87, 86, 86);
+            padding: 7px;
+            border-radius: 18px;
+        }
+        
+        #title {
+            margin-left: 20px;
+        }
+        
+        #author {
+            margin-left: 10px;
+        }
+        
+        #rd1 {
+            margin-left: 5px;
+        }
+        
+        #rd2 {
+            margin-left: 10px;
+        }
+        
+        #btn {
+            margin-left: 90px;
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        
+        #btn:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Homework Part 1 & Part 2</h1>
+    </header>
+
+    <form id="myForm">
+        <p>Please enter information below 📝</p>
+        <div class="formBox" class="form">
+            <label for="title">Book</label>
+            <input type="text" id="title" placeholder="Title" />
+        </div>
+        <div class="formBox">
+            <label for="author">Author</label>
+            <input type="text" id="author" placeholder="Author" />
+        </div>
+        <p>Have you Read this book? 🤔</p>
+        <div>
+            <label>Yes</label>
+            <input type="radio" value="true" name="radio" id="rd1" />
+            <br />
+            <label>No</label>
+            <input type="radio" value="false" name="radio" id="rd2" />
+        </div>
+        <br />
+        <div class="formBox">
+            <button id="btn">Submit</button>
+        </div>
+        <div id="msg">
+            <pre></pre>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
